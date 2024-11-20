@@ -1,0 +1,8 @@
+version: '8.3'
+services:
+  web:
+    build: .
+    ports:
+      - "2020:80"
+    volumes:
+      - .:/var/www/html
