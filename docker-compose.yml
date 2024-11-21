@@ -3,6 +3,6 @@ services:
   web:
     build: .
     ports:
-      - "2020:80"
+      - "1010:80"
     volumes:
       - .:/var/www/html
